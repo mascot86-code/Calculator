@@ -18,21 +18,35 @@
 
     <div class="container">
         <header>
-            <div class="header_content">I am a header</div>
+            <div class="header_content">Шапка сайта тут</div>
         </header>
-    
+
         <main>
-            <div class="main_content">I am a main content</div>
+            <div class="main_content">
+                <h3>Simple calculator app</h3>
+                <p class="type-it"></p>
+                <input class="value1" type="number" placeholder="Value 1"><br>
+                <input class="sign" type="text" placeholder="Sign"><br>
+                <input class="value2" type="number" placeholder="Value 2"><br>
+                <div class="buttons-block">
+                    <button class="submit" type="submit">Посчитать</button><br>
+                    <button class="reset" type="reset">Очистить</button><br>
+                </div>
+                <p>Result: <span class="result"></span></p>
+            </div>
         </main>
-    
+
         <footer>
-            <div class="footer_content">I am a footer content</div>
+            <div class="footer_content">
+                <p class="link"></p>
+            </div>
         </footer>
     </div>
 
     <script src="js/lodash.min.js"></script>
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/jquery.maskedinput.min.js"></script>
+    <script src="https://unpkg.com/typeit@8.5.3/dist/index.umd.js"></script>
     <script src="js/script.js"></script>
 </body>
 
